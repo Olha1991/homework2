@@ -10,5 +10,14 @@ public class Main {
         double differenceCereal = porridgWeight - buckwheatWeight;
         System.out.println("Total weight of vegetables " + avocado + tomato + cucumber + potato + " kg");
         System.out.println("Difference between cereals " + differenceCereal + " kg");
+
+   // Exercise 2
+        double boxer1Weight = 78.2;
+        double boxer2Weight = 82.7;
+        double weightOfBothBoxers = boxer1Weight + boxer2Weight;
+        double differenceBetweenBoxers = boxer2Weight - boxer1Weight;
+        System.out.println("Totai weight of both boxers " + weightOfBothBoxers + " kg");
+        System.out.println("Weight difference between boxers " + differenceBetweenBoxers + " kg");
+
     }
 }
