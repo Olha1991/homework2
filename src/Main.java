@@ -5,9 +5,11 @@ public class Main {
         int tomato = 6;
         short cucumber = 10;
         long potato = 18L;
-        float porridgWeight = 15.5f;
+        float porridgeWeight = 15.5f;
         double buckwheatWeight = 3.5;
-        double differenceCereal = porridgWeight - buckwheatWeight;
+        boolean heavyWeight = buckwheatWeight > 10;
+        System.out.println(heavyWeight);
+        double differenceCereal = porridgeWeight - buckwheatWeight;
         System.out.println("Total weight of vegetables " + avocado + tomato + cucumber + potato + " kg");
         System.out.println("Difference between cereals " + differenceCereal + " kg");
 
@@ -16,14 +18,13 @@ public class Main {
         double boxer2Weight = 82.7;
         double weightOfBothBoxers = boxer1Weight + boxer2Weight;
         double differenceBetweenBoxers = boxer2Weight - boxer1Weight;
-        System.out.println("Totai weight of both boxers " + weightOfBothBoxers + " kg");
+        System.out.println("Total weight of both boxers " + weightOfBothBoxers + " kg");
         System.out.println("Weight difference between boxers " + differenceBetweenBoxers + " kg");
 
     // Exercise 3
         int bananas = 5;
         int grBananas1 = 80;
         int bananas5 = bananas * grBananas1;
-        int milk = 200;
         int grMilk100 = 105;
         int milk200 = grMilk100 * 2;
         int iceCream = 2;
