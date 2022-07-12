@@ -19,5 +19,23 @@ public class Main {
         System.out.println("Totai weight of both boxers " + weightOfBothBoxers + " kg");
         System.out.println("Weight difference between boxers " + differenceBetweenBoxers + " kg");
 
+ // Exercise 3
+        int bananas = 5;
+        int grBananas1 = 80;
+        int bananas5 = bananas * grBananas1;
+        int milk = 200;
+        int grMilk100 = 105;
+        int milk200 = grMilk100 * 2;
+        int iceCream = 2;
+        int grOneIceCream = 100;
+        int iceCream2 = iceCream * grOneIceCream;
+        int egg = 4;
+        int grOneEgg = 70;
+        int eggs4 = egg * grOneEgg;
+        int allProductsInGr = bananas5 + milk200 + iceCream2 + eggs4;
+        System.out.println("Sports breakfast weight " + allProductsInGr + " gr");
+        int grPerKg = 1000;
+        float weightKg = allProductsInGr / (float) grPerKg;
+        System.out.println("1090 gr = " + weightKg + " kg");
     }
 }
