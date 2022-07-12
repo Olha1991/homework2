@@ -56,32 +56,30 @@ public class Main {
         int mashaHas = 67760;
         int denisHas =83690;
         int christinaHas = 76230;
-        int masha10 = mashaHas * 10 / 100;
-        System.out.println("10 % of Masha's current salary =" + masha10 +" rubles");
-        int denis10 =denisHas * 10 / 100;
-        System.out.println("10 % of Denis' current salary = " + denis10 + " rubles");
-        int christina10 = christinaHas * 10 / 100;
-        System.out.println("10 % of Christina's current salary = " + christina10 + " rubles");
+        int percent =10;
+        int allPercent = 100;
+        int masha10 = mashaHas * percent / allPercent;
+        int denis10 =denisHas * percent / allPercent;
+        int christina10 = christinaHas * percent / allPercent;
         int newSalaryMasha = mashaHas + masha10;
-        System.out.println("Now Masha receives " + newSalaryMasha + " rubles a month");
         int newSalaryDenis = denisHas + denis10;
-        System.out.println("Now Denis receives " + "rubles a month");
         int newSalaryChristina = christinaHas + christina10;
-        System.out.println("Now Christina receives " + newSalaryChristina + " rubles a month");
 
-        int annualOldMasha = mashaHas * 12;
-        int annualNewMasha = newSalaryMasha * 12;
+        int perYear = 12;
+        int annualOldMasha = mashaHas * perYear;
+        int annualNewMasha = newSalaryMasha * perYear;
         int differenceMasha = annualNewMasha - annualOldMasha;
-        System.out.println("Masha's annual income increased by " + differenceMasha + " rubles");
+        System.out.println("Now Masha receives " + newSalaryMasha + " rubles." + "Annual income increased by " + differenceMasha + " rubles");
 
-        int annualOldDenis = denisHas * 12;
-        int annualNewDenis = newSalaryDenis * 12;
+        int annualOldDenis = denisHas * perYear;
+        int annualNewDenis = newSalaryDenis * perYear;
         int differenceDenis = annualNewDenis - annualOldDenis;
-        System.out.println("Denis' annual income increased by " + differenceDenis + " rubles");
+        System.out.println("Now Denis receives " + newSalaryDenis + " rubles." + "Annual income increased by " + differenceDenis + " rubles");
 
-        int annualOldChristina = christinaHas * 12;
-        int annualNewChristina = newSalaryChristina * 12;
+        int annualOldChristina = christinaHas * perYear;
+        int annualNewChristina = newSalaryChristina * perYear;
         int differenceChristina = annualNewChristina - annualOldChristina;
-        System.out.println("Christina's annual income increased by " + differenceChristina + " rubles");
+        System.out.println("Now Christina receives " + newSalaryChristina + " rubles." + "Annual income increased by " + differenceChristina + " rubles");
+
     }
 }
