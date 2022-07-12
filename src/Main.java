@@ -37,5 +37,18 @@ public class Main {
         int grPerKg = 1000;
         float weightKg = allProductsInGr / (float) grPerKg;
         System.out.println("1090 gr = " + weightKg + " kg");
+
+  // Exercise 4
+        int kgWeight =7;
+        int option1 = 250;
+        int option2 = 500;
+        int kgPerGr = 1000;
+        int grWeight = kgWeight * kgPerGr;
+        int dayInOption1 = grWeight / option1;
+        System.out.println("In the first option you need " + dayInOption1 + " days");
+        int dayInOption2 = grWeight / option2;
+        System.out.println("In the second option you need " + dayInOption2 + " days");
+        int dayOnAverage = (dayInOption1 + dayInOption2) / 2;
+        System.out.println("On average you need " + dayOnAverage + " days");
     }
 }
